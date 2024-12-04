@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h4>Registration Form</h4>
+       <form action="/action.php"><!--Creats a Form -->
+        <input type="Text" placeholder="Username"><!--Usedd to take input from user-->
+        <br>
+        <br>
+        <input type="password" placeholder="Password">
+        <br />
+        <br />
+        <h4>Select Your Class</h4>
+        <label for="107"><!--Label enables the option even clicking text other then option itself-->
+            <input type="radio" value="5B-17" name="Division" id="107">5B-17<!--Radio is used to select a single option-->
+        </label>
+       <br><br>
+        <label for="108">
+            <input type="radio" value="5B-18" name="Division" id="108">5B-18
+        </label>
+        <br>
+        <h4>Select Your Fav Subject.</h4>
+        <label for="math">
+            <!--Checkbox is used to select multiple options.-->
+            <input type="checkbox" value="math" name="subject" id="101">Math
+        </label>
+        <br><br>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="102">Physics
+        </label>
+        <br><br>
+        <label for="bio">
+            <input type="checkbox" value="bio" name="subject" id="103">Biology
+        </label>
+        <br><br>
+        <label for="daa">
+            <input type="checkbox" value="daa" name="subject" id="104">DAA
+        </label>
+
+        <h4>Select Your City.</h4>
+    <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Goa">Goa</option>
+        <option value="Banglore">Banglore</option>
+        <option value="Pune">Pune</option>
+        <option value="Mumbai">Mumbai</option>
+    </select>
+    <br><br>
+    <textarea name="feedback" id="101" placeholder="Please give your valuable feedback hear" rows="5"></textarea>
+    <br>
+        <input type="submit" value="submit">
+        </form> 
+    </main>
+    
+    
+    <footer></footer>
+    
+</body>
+</html>
