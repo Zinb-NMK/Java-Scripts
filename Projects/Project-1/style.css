@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; /* Change background to white */
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background: white; /* Ensure container background is white */
+}
+
+canvas {
+    display: block;
+    background: white; /* Set canvas background color explicitly */
+}
